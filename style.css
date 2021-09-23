@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+}
+header{
+    height: 280px;
+    width:100%;
+    background:url('./images/pattern-bg.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top:2em;
+}
+header h1{
+    color:#FFF;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1.5em;
+}
+header .form-group{
+    width:35%;
+    height:50px;
+    border:1px solid #FFF;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #fff;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.form-group .form-control{
+    width:100%;
+    font-size: 1em;
+    border:none;
+    outline:none;
+    padding:1em;
+}
+.form-group .btn{
+    width:50px;
+    height:50px;
+    text-align: center;
+    background-color: #000;
+    cursor: pointer;
+    font-weight: 400;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border:none;
+    outline:0;
+    }
+.form-group .btn img{
+    width:50%;
+    padding:0.7em 0;
+}
+.container .map-container .loading{
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color:hsl(0, 0%, 17%);
+    letter-spacing: 0.2em;
+}
+.container .map-container .col-md-1{
+    width:80%;
+    padding: 1em 2em;
+    background:#FFF;
+    margin: -4em   auto 1em auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 12px 14px 0 rgba(0, 0,0, 0.1);
+}
+.container .map-container .col-md-1 .row{
+    width:20%;
+    margin: 0 auto;
+    text-align: center;
+    border-right: 1px solid hsl(0, 0%, 59%);
+}
+.container .map-container .col-md-1 .row:last-child{
+    border:none;
+}
+.container .map-container .col-md-1 h5{
+    font-size: 0.8em;
+    font-weight: 500;
+    color:hsl(0, 0%, 59%);
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+}
+#mapid { 
+    height: 480px; 
+    margin-top: 50px
+ }
